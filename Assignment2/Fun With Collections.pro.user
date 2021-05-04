@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.14.1, 2021-03-27T23:13:29. -->
+<!-- Written by QtCreator 4.14.2, 2021-05-03T22:43:21. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -292,14 +292,15 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/daniellebodine/Documents/TUFTSMSCS/Spring21/DS/Assignment 2/Fun With Collections.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/daniellebodine/Documents/TUFTSMSCS/Spring21/DS/Assignment 2/Fun With Collections.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Fun With Collections2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/daniellebodine/Documents/TUFTSMSCS/Spring21/DS/Assignment2/Fun With Collections.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/daniellebodine/Documents/TUFTSMSCS/Spring21/DS/Assignment2/Fun With Collections.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/daniellebodine/Documents/TUFTSMSCS/Spring21/DS/Assignment 2/Fun_With_Collections.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/daniellebodine/Documents/TUFTSMSCS/Spring21/DS/Assignment2/Fun_With_Collections.app/Contents/MacOS</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
