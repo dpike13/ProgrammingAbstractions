@@ -3,26 +3,57 @@
 using namespace std;
 
 Vector<DataPoint> combine(const Vector<Vector<DataPoint>>& sequences) {
-    /* TODO: Delete the next few lines and implement this. */
-    (void) sequences;
-    return {};
-}
 
+    if(sequences.size()==1)
+    {
+        return sequences[0];
+    }
+    if(sequences.isEmpty())
+    {
+        return {};
+    }
+    Vector<DataPoint> final;
+    Vector<DataPoint> left;
+    Vector<DataPoint> right;
+    Vector<Vector<DataPoint>> v1;
+    Vector<Vector<DataPoint>> v2;
+    int s = sequences.size();
+    v1 = sequences.subList(0, s/2);
+    v2 = sequences.subList(s/2);
+    left+= combine(v1);
+    right+= combine(v2);
+    int j =0;
+    int i = 0;
+    while(i < left.size() && j < right.size())
+    {
+        if(left[i].weight < right[j].weight)
+        {
+            final.add(left[i]);
+            i++;
+        }
+        else
+        {
+            final.add(right[j]);
+            j++;
+        }
+    }
+    while(i <left.size())
+    {
+        final.add(left[i]);
+        i++;
+    }
+    while(j<right.size())
+    {
+        final.add(right[j]);
+        j++;
+    }
+
+    return final;
+}
 
 /* * * * * * Test Cases Below This Point * * * * * */
 
 /* TODO: Add your own custom tests here! */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
